@@ -1,0 +1,17 @@
+.header-container {
+    height: 10vh;
+    width: 99%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon-style {
+    color: white;
+    font-size: 32px;
+}
+
+.update-profile-heading {
+    color: white;
+}
