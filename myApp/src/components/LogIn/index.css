@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.log-in-page-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30633.jpg?uid=R150155018&ga=GA1.1.2003561545.1728832096&semt=ais_hybrid");
+    background-size: cover;
+}
+
+.log-in-box {
+    height: 55vh;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .log-in-box {
+        width: 80%;
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .log-in-box {
+        width: 70%;
+        height: 60vh;
+    }
+}
+
+.user-icon-container {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon-style {
+    font-size: 52px;
+    color: white;
+}
+.user-name-box {
+    margin-top: 30px;
+    width: 70%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .user-name-box {
+        width: 90%
+    }
+}
+
+.log-in-button-style {
+    margin-top: 30px;
+    width: 70%;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.error-msg {
+    color: red;
+    font-size: 24px;
+}
