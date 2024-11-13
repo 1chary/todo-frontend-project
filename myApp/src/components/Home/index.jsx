@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./index.css"
 import Header from '../Header'
+import Card from '../Card'
 
 let toDoList = [
   {toDoId: 1, description: "AI ASSIGNMENT", status: "done"},
@@ -16,6 +17,11 @@ const Home = () => {
   return (
     <div className="home-page-container">
       <Header/>
+      <ul className='unordered-list'>
+          {toDoList.map((eachItem) => (
+          <Card details = {eachItem} />
+        ))}
+      </ul>
       
     </div>
   )

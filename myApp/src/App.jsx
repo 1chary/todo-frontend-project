@@ -6,8 +6,8 @@ import Home from './components/Home'
 const App = () => {
   return (
     <Routes>
-      <Route exact path = "/login" element = {<LogIn/>} />
       <Route path='/' element = {<Home/>} />
+      <Route exact path = "/login" element = {<LogIn/>} />
     </Routes>
   )
 }

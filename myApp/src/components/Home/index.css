@@ -6,3 +6,9 @@
     background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30633.jpg?uid=R150155018&ga=GA1.1.2003561545.1728832096&semt=ais_hybrid");
     background-size: cover;
 }
+.unordered-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    list-style-type: none;
+}
