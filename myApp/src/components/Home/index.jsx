@@ -1,29 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import "./index.css"
+import React from 'react'
 import Header from '../Header'
-import Card from '../Card'
-
-let toDoList = [
-  {toDoId: 1, description: "AI ASSIGNMENT", status: "done"},
-  {toDoId: 2, description: "ML ASSIGNMENT", status: "done"},
-  {toDoId: 3, description: "PYTHON ASSIGNMENT", status: "pending"},
-  {toDoId: 4, description: "JS ASSIGNMENT", status: "inProgress"},
-  {toDoId: 5, description: "CSS ASSIGNMENT", status: "completed"}
-]
+import "./index.css"
 
 
 const Home = () => {
-
   return (
-    <div className="home-page-container">
-      <Header/>
-      <ul className='unordered-list'>
-          {toDoList.map((eachItem) => (
-          <Card details = {eachItem} />
-        ))}
-      </ul>
-      
-    </div>
+    <>
+      <div id = "home" className='home-page-container'>
+        <h1>Hey Good Morning</h1>
+      </div>
+    </>
   )
 }
 
